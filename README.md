@@ -1,5 +1,5 @@
-# Dark-Web-Discord-Bot
- A Discord bot that searches the dark web for your query and returns links and screenshots of the results to your Discord channel using ahmia.fi. Developed by RocketGod.
+# Dark-Web-Matrix-Bot
+ A Matrix bot that searches the dark web for your query and returns links and screenshots of the results to your Matrix channel using ahmia.fi. Developed by RocketGod.
 
 > **Note**: You need to have the TOR Browser connected to the TOR Network for this bot to function correctly.
 
@@ -17,8 +17,8 @@ Before installing the bot, ensure you have the correct version of `chromedriver`
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/RocketGod-git/Dark-Web-Discord-Bot
-   cd Dark-Web-Discord-Bot
+   git clone https://github.com/RocketGod-git/Dark-Web-Matrix-Bot
+   cd Dark-Web-Matrix-Bot
    ```
 2. Install dependencies and run the bot:
    ```bash
@@ -29,8 +29,8 @@ Before installing the bot, ensure you have the correct version of `chromedriver`
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/RocketGod-git/Dark-Web-Discord-Bot
-   cd Dark-Web-Discord-Bot
+   git clone https://github.com/RocketGod-git/Dark-Web-Matrix-Bot
+   cd Dark-Web-Matrix-Bot
    ```
 2. Make the script executable:
    ```bash
@@ -46,15 +46,15 @@ Before installing the bot, ensure you have the correct version of `chromedriver`
 1. Edit `config.json` in the root directory with the following format:
    ```json
    {
-       "discord_bot_token": "YOUR_DISCORD_BOT_TOKEN"
+       "Matrix_bot_token": "YOUR_Matrix_BOT_TOKEN"
    }
    ```
-2. Replace `YOUR_DISCORD_BOT_TOKEN` with your actual Discord bot token.
+2. Replace `YOUR_Matrix_BOT_TOKEN` with your actual Matrix bot token.
 
 ## 🌟 Features
 
 - Search for onion links related to a query on the dark web.
-- Get screenshots of the fetched onion sites directly in Discord with clickable links.
+- Get screenshots of the fetched onion sites directly in Matrix with clickable links.
 
 ## 📜 License
 
